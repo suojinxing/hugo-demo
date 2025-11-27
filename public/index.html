@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Sjx Hugo Test</title>
+    <title>Suo Jinxing</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
     <meta name="generator" content="Hugo 0.147.4">
@@ -31,8 +31,8 @@
 
     
     
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Sjx Hugo Test" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Sjx Hugo Test" />
+      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Suo Jinxing" />
+      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Suo Jinxing" />
       
     
 
@@ -41,16 +41,16 @@
     
 
     <meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="Sjx Hugo Test">
-  <meta property="og:title" content="Sjx Hugo Test">
+  <meta property="og:site_name" content="Suo Jinxing">
+  <meta property="og:title" content="Suo Jinxing">
   <meta property="og:locale" content="en_zh">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Sjx Hugo Test">
-  <meta itemprop="datePublished" content="2022-11-20T09:03:20-08:00">
-  <meta itemprop="dateModified" content="2022-11-20T09:03:20-08:00">
+  <meta itemprop="name" content="Suo Jinxing">
+  <meta itemprop="datePublished" content="2025-11-27T21:30:19+08:00">
+  <meta itemprop="dateModified" content="2025-11-27T21:30:19+08:00">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Sjx Hugo Test">
+  <meta name="twitter:title" content="Suo Jinxing">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -63,7 +63,7 @@
   <div class="flex-l center items-center justify-between">
     <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
       
-        Sjx Hugo Test
+        Suo Jinxing
       
     </a>
     <div class="flex-l items-center">
@@ -78,7 +78,7 @@
 
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          Sjx Hugo Test
+          Suo Jinxing
         </h1>
         
       </div>
@@ -113,17 +113,51 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-first-post/" class="color-inherit dim link">
-            我的第一篇文章
+          <a href="/posts/cloudfare-hugo/" class="color-inherit dim link">
+            Cloudfare Hugo
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="简介">简介</h2>
-<p>这是 <strong>粗体</strong> 文本，这是 <em>斜体</em> 文本。</p>
-<p>访问 <a href="https://gohugo.io">Hugo</a> 网站！</p>
-<p><img src="/imgs/pic.png" alt="刘亦菲.png"></p>
+          <h1 id="从0到1在cloudfare上部署hugo站点">从0到1在CloudFare上部署Hugo站点</h1>
+<p>前置条件：</p>
+<ol>
+<li>你已经拥有一个hugo项目，并且托管在github（或gitlab，本文以github为例）</li>
+<li>注册一个CloudFare账号</li>
+</ol>
+<h1 id="1cloudfare部署hugo">1️⃣CloudFare部署Hugo</h1>
+<p><a href="https://dash.cloudflare.com/login">点击跳转CloudFare登录地址</a></p>
+<ol>
+<li>
+<p>点击【Add】，选择【Pages】，新建一个Pages
+<img src="/cloudfare/step1.png" alt=""></p>
+</li>
+<li>
+<p>选择从github【get started】
+<img src="/cloudfare/step2.png" alt=""></p>
+</li>
+<li>
+<p>如果你没有认证过，这里首先会让你登录github进行授权。授权完毕后就是如下页面。你可以选择到自己的仓库。按照下图步骤操作
+<img src="/cloudfare/step3.png" alt="">
+<img src="/cloudfare/step4.png" alt=""></p>
+</li>
+<li>
+<p>执行如下命令查询<code>hugo</code>的版本</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 查看hugo版本的命令，+后不是版本，只有小数点和数字表示版本</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 如我这里输出hugo v0.147.4+extended+withdeploy darwin/arm64 BuildDate=2025-05-20T10:41:19Z VendorInfo=brew</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 那我得版本就是0.147.4</span>
+</span></span><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><p><img src="/cloudfare/step5.png" alt=""></p>
+</li>
+<li>
+<p>点击【save and deploy】按钮进入下一步<!-- raw HTML omitted -->等待几个步骤加载后，出现如下success字样表示网站部署成功。</p>
+<p><img src="/cloudfare/step6.png" alt=""></p>
+</li>
+</ol>
+<h1 id="2配置域名">2️⃣配置域名</h1>
+<p><img src="/cloudfare/step7.png" alt=""></p>
+<p>未完待续……</p>
         </div>
-        <a href="/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/posts/cloudfare-hugo/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -142,7 +176,7 @@
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  Sjx Hugo Test 2025 
+    &copy;  Suo Jinxing 2025 
   </a>
     <div><div class="ananke-socials"></div>
 </div>
