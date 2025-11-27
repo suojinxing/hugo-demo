@@ -1,8 +1,24 @@
-+++
-date = '2025-11-27T21:30:19+08:00'
-draft = false
-title = 'Cloudfare Hugo'
-+++
+---
+title: CloudFare-Hugo
+date: 2025-11-27T22:47:35+08:00
+lastmod: 2025-11-27T22:47:35+08:00
+author: Author Name
+# avatar: /img/author.jpg
+# authorlink: https://author.site
+cover: /images/default2.jpg
+# covercaption: a description of the cover image
+# images:
+#   - /img/cover.jpg
+categories:
+  - 搭建博客
+tags:
+  - tag1
+  - tag2
+# nolastmod: true
+# math: true
+draft: false
+---
+
 
 # 从0到1在CloudFare上部署Hugo站点
 

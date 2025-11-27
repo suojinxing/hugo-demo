@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category1 on Suo Jinxing</title>
+    <link>http://localhost:1313/categories/category1/</link>
+    <description>Recent content in Category1 on Suo Jinxing</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 27 Nov 2025 22:47:35 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Hugo</title>
+      <link>http://localhost:1313/posts/theme-hugo/</link>
+      <pubDate>Thu, 27 Nov 2025 22:47:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/theme-hugo/</guid>
+      <description>&lt;p&gt;安装一款好看的主题&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

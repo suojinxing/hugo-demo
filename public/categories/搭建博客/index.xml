@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>搭建博客 on Thor</title>
+    <link>http://localhost:1313/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 搭建博客 on Thor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Nov 2025 22:47:35 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudFare-Hugo</title>
+      <link>http://localhost:1313/posts/cloudfare-hugo/</link>
+      <pubDate>Thu, 27 Nov 2025 22:47:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cloudfare-hugo/</guid>
+      <description>&lt;h1 id=&#34;从0到1在cloudfare上部署hugo站点&#34;&gt;从0到1在CloudFare上部署Hugo站点&lt;/h1&gt;&#xA;&lt;p&gt;前置条件：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;你已经拥有一个hugo项目，并且托管在github（或gitlab，本文以github为例）&lt;/li&gt;&#xA;&lt;li&gt;注册一个CloudFare账号&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;1cloudfare部署hugo&#34;&gt;1️⃣CloudFare部署Hugo&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dash.cloudflare.com/login&#34; target=&#34;_blank&#34;&gt;点击跳转CloudFare登录地址&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击【Add】，选择【Pages】，新建一个Pages&#xA;&lt;img src=&#34;http://localhost:1313/cloudfare/step1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;选择从github【get started】&#xA;&lt;img src=&#34;http://localhost:1313/cloudfare/step2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如果你没有认证过，这里首先会让你登录github进行授权。授权完毕后就是如下页面。你可以选择到自己的仓库。按照下图步骤操作&#xA;&lt;img src=&#34;http://localhost:1313/cloudfare/step3.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/cloudfare/step4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;执行如下命令查询&lt;code&gt;hugo&lt;/code&gt;的版本&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 查看hugo版本的命令，+后不是版本，只有小数点和数字表示版本&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 如我这里输出hugo v0.147.4+extended+withdeploy darwin/arm64 BuildDate=2025-05-20T10:41:19Z VendorInfo=brew&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 那我得版本就是0.147.4&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloudfare/step5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击【save and deploy】按钮进入下一步&lt;!-- raw HTML omitted --&gt;等待几个步骤加载后，出现如下success字样表示网站部署成功。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloudfare/step6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;2配置域名&#34;&gt;2️⃣配置域名&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cloudfare/step7.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;未完待续……&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Theme Hugo</title>
+      <link>http://localhost:1313/posts/theme-hugo/</link>
+      <pubDate>Thu, 27 Nov 2025 22:47:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/theme-hugo/</guid>
+      <description>&lt;h1 id=&#34;安装一款好看的主题&#34;&gt;安装一款好看的主题&lt;/h1&gt;&#xA;&lt;p&gt;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&#xA;安装一款好看的主题&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
